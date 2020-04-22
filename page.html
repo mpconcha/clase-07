@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--agregar metadatos-->
+    <link rel="stylesheet" href="estilo.css">
+    <title>Estduio Covid-19 en Chile</title>
+</head>
+
+<body>
+    <nav>
+        <select onchange="if (this.value) window.location.href=this.value">
+            <option value="index.html">Estudio Covid-19 en Chile</option>
+            <option value="page.html" selected>Información actualizada</option>
+        </select>
+    </nav>
+    <div class="container">
+        <header>
+            <!--el elemento hgroup ya no se usa; ver http://html5doctor.com/the-hgroup-element/ -->
+            <h1><a href="index.html">Estudio Covid-19 en Chile</a></h1>
+        </header>
+        <section>
+            <h2>Basado en informe del Indice Calidad de Vida Urbana 2019</h2>
+            <p>El Índice de Calidad de Vida Urbana mide y compara en
+términos relativos la calidad de vida urbana de comunas y
+ciudades en Chile, a partir de un conjunto de variables referidas
+a seis dimensiones que expresan el estado de situación en
+la provisión de bienes y servicios públicos y privados a la
+población residente y sus correspondientes impactos socioterritoriales, tanto a escala de ciudades intermedias como
+metropolitana.</p>
+            <p>El ICVU mide 6 dimensiones mediante un total, para este año
+2019, de 36 variables estadísticas seleccionadas con criterio
+experto. A continuación se encuentran 3 de las principales con sus definiciones</p>
+            <!-- ver https://developer.mozilla.org/es/docs/Web/HTML/Elemento/dl -->
+            <dl>
+                <dt>Condiciones laborales (CL)</dt>
+                <dd>Condiciones laborales de la poblacion residente en terminos de ingreso, condiciones contractuales, costo de vida y nivel de endeudamiento.</dd>
+                <dt>Ambiente de negocios (AN)</dt>
+                <dd>Capacidad de atraer actividad economica y nuevos emprendimientos, desarrollos inmobiliarios y nuevos servicio publicos y privados.</dd>
+                <dt>Condiciones socioculturales (CS)</dt>
+                <dd>Aspectos relativos al desarrollo de capital social, conforme la oferta y resultados en educacion, participacion ciudadana y convivencia social.</dd>
+            </dl>
+            <p>Las 99 comunas evaluadas por el ICVU se distribuyen, segun los resultados 2019 en tres rangos. Superior, promedio e inferior. A continuacion estan las 11 primeras comunas del rango superiror. Que se refiere a cuando se alcanza un indice por sobre el promedio nacional mas media de desviacion estandar. Puntaje mayor a 58,0</p>
+
+            <table>
+                <tr>
+                    <th>Comuna</th>
+                    <th>Región</th>
+                    <th>ICVU 2019</th>
+                </tr>
+                <tr>
+                    <td>Vitacura</td>
+                    <td>Metropolitana</td>
+                    <td>75,59</td>
+                </tr>
+                <tr>
+                    <td>Las Condes</td>
+                    <td>Metropolitana</td>
+                    <td>74,54</td>
+                </tr>
+                <tr>
+                    <td>La Reina</td>
+                    <td>Metropolitana</td>
+                    <td>70,45</td>
+                </tr>
+                <tr>
+                    <td>Lo Barnechea</td>
+                    <td>Metropolitana</td>
+                    <td>69,09</td>
+                </tr>
+                 <tr>
+                    <td>Providencia</td>
+                    <td>Metropolitana</td>
+                    <td>68,79</td>
+                </tr>
+                <tr>
+                    <td>Ñuñoa</td>
+                    <td>Metropolitana</td>
+                    <td>66,28</td>
+                </tr>
+                <tr>
+                    <td>Concón</td>
+                    <td>Vaparaíso</td>
+                    <td>64,45</td>
+                </tr>
+                <tr>
+                    <td>Macul</td>
+                    <td>Metropolitana</td>
+                    <td>61,92</td>
+                </tr>
+                <tr>
+                    <td>Punta Arenas</td>
+                    <td>Magallanes</td>
+                    <td>61,79</td>
+                </tr>
+                <tr>
+                    <td>Machalí</td>
+                    <td>O´Higgins</td>
+                    <td>61,6</td>
+                </tr>
+                 <tr>
+                    <td>Talcahuano</td>
+                    <td>Biobío</td>
+                    <td>61,48</td>
+                </tr>
+            </table>
+
+            <p>Además de estas comunas se enuentran Viña del Mar, Concepción, Valdivia, Antofagasta, Santiago, San Miguel, Puerto Varas e Iquique.Puedes <a href="index.html">volver a la página portada</a>.</p>
+
+        </section>
+        <footer>
+            <hr>
+            <p>María Paz Concha &copy; 2020 <span class="derecha">Séptima clase, enfocada en <abbr title="HyperText Markup Language">html</abbr></span></p>
+        </footer>
+    </div>
+</body>
+
+</html>
